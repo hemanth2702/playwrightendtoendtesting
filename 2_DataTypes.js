@@ -149,6 +149,13 @@ console.log(typeof product);    // object
 // 1 . dot notation
 // 2 bracket notation
 
-console.log(product.name);
-console.log(product[price]);
+console.log(product.name);      //iphone
+console.log(product["price"]);  // 80000
 
+product.price = 90000; //update the price
+console.log(product);   // { name: 'iphone', price: 90000 }
+
+
+let id = symbol('pid');
+product[id]=1010;
+console.log(product);

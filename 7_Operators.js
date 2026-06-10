@@ -41,9 +41,12 @@ let j=++i;
 console.log(i);  //101
 console.log(j);  //101
 
+let sum = 1;
+for(let i=5; i>=1; i--){
 
-
-
+sum=sum*i;
+}
+console.log(sum); //1
 
 
 

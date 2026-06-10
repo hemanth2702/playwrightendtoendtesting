@@ -1,0 +1,20 @@
+{
+  "name": "jsbasics",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/hemanth2702/playwrightendtoendtesting#readme",
+  "bugs": {
+    "url": "https://github.com/hemanth2702/playwrightendtoendtesting/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemanth2702/playwrightendtoendtesting.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "1_Firstcode.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
