@@ -1,3 +1,68 @@
+/*
+Variable:
+----------
+Variable is a name of storage location where we can store the data.
+
+To decalare variable:
+----------------------
+var (older)
+
+modren JS
+let(mutable data)
+const(Immutable data)
+
+
+syntax:
+-----------
+
+let/const variable=value
+
+Example:
+let age =26;
+let name ="Hemanth";
+
+Datatypes: 
+-----------
+datatype define the type of data which we can store into variable.
+JS is dynamically type language so in this language we don't need
+ to mention the data type for variable.
+
+In Js everything is object(interface)
+------------------------------------------
+string/number/boolean/object/array...etc
+
+JS suppots two types of datatype
+
+primitive data type
+
+1. Number
+2. string
+3.boolean
+4. undefined
+5. null
+
+Added after Es6 but we don't use in automation.
+
+6. Bigint
+7. symbol
+
+Non primitive data type(object reference details)
+
+1. object 
+2. array
+
+Typeof operator:
+--------------------
+
+In Js to check data type of the variable we use typeof operator
+
+*/
+
+
+
+
+
+
 let num1=100;
 console.log(num1);      //100
 console.log(typeof num1); // number
@@ -159,3 +224,8 @@ console.log(product);   // { name: 'iphone', price: 90000 }
 let id = symbol('pid');
 product[id]=1010;
 console.log(product);
+
+
+
+
+
