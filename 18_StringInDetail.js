@@ -52,9 +52,120 @@ let ss2="Welcome All    "
 console.log(ss2.trim());
 
 //includes partial match
-let info="playwright is webui and api testing framework"
+let info="Playwright is webui and api testing framework"
 console.log(info.includes("api")); //true
 console.log((info.includes("mocha"))); //false
+
+
+//startswith(prefix) and endswith(suffix)
+let info="Playwright is webui and api testing framework"
+console.log("string starts with: " +info.startsWith("Playwright"));  //true
+console.log("string starts with: " + info.startsWith("playwright")); //false
+console.log("string starts with: " + info.startsWith("Play"));        //true
+console.log("string starts with: " + info.startsWith("P"));           //true
+
+console.log("string ends with: " + info.endsWith("framework")); //true
+console.log("string ends with: " + info.endsWith("work"));      //true
+console.log("string ends with: " + info.endsWith("k"));         //true
+console.log("string ends with: " + info.endsWith("frame"));     //false
+
+
+//charAt(index): As per the index we can retrieve the character from the string.
+// returns the character at the specified index.
+
+let ss3= "Hello All";
+//index   012345678
+console.log("get the character at the index: " + ss3.charAt(1)); //e
+
+//indexof('string/char'): returs index number of given character.
+//returs the position of the first occurance of the substring, if not present then it will return -1
+
+let ss4 = "selenium webdriver is webui automation tool";
+console.log("Index number of character e: " + ss4.indexOf('e')); //1 1st e index position is 1
+console.log("Index number of character z:" + ss4.indexOf('z'));  // -1 because z is not present in the string
+
+let fo= ss4.indexOf('e');
+//second occurance of e
+let so=ss4.indexOf('e',fo+1);
+//third occurance of e
+let to=ss4.indexOf('e',so+1);
+console.log("third occurance of index: " + to);//10
+
+//get third index value
+console.log("third occurance index of e: " + ss4.indexOf('e',4)); //10
+//here ('e',4) here next character 'e' will be start searching from the 4th index.
+
+
+//lastindexof(): return last index occurance for any character.
+console.log("last index of e: " + ss4.lastIndexOf('e')); //23
+
+//how to count number of occurance for an character
+let ss5 = "selenium webdriver is webui automation tool";
+let count=0;
+for(let i=0;i<ss5.length; i++){
+let ch=ss5.charAt(i);
+if(ch=='e'){
+count++
+}
+}
+console.log("total count: "+ count);
+
+
+//replace('to be replaced value','new value'):
+//here we can replace any of the string value with new value.
+
+let sentence="Automation Testing is important and Automation Testing with modern tool is more important";
+
+console.log(sentence.replace('Testing','#####')); //here onl 1st matching value will be replaced and rest will be remain same.
+
+//concat(): strings to append to the end of the string.
+
+let ss6="Hello";
+let ss7="All";
+console.log(ss6+" "+ss7);           //Hello All
+console.log(ss6,ss7);               //Hello All
+console.log(ss6.concat(" "+ ss7));  //Hello All
+
+//split(): return string array
+
+
+let allTools="Selenium,Appium,Cypress,Postman,Playwright";
+  //index       0       1       2       3       4
+
+  let tools=allTools.split(",");
+console.log(tools);   //[ 'Selenium', 'Appium', 'Cypress', 'Postman', 'Playwright' ]
+
+  //to get the index value
+console.log(tools[2]);  //Cypress
+
+let date="13-June-2026";
+let day=date.split("-")[0];
+let month=date.split("-")[1];
+let year=date.split("-")[2];
+
+console.log(day);   //13
+console.log(month); //june
+console.log(year);  //2026
+
+//reverse
+
+let info1="Hello All"
+console.log(info1);
+let rev=0;
+for(let i=info1.length-1;i>=0;i--){
+  rev=rev+info1.charAt(i);
+}
+console.log(rev);
+
+
+
+
+
+
+
+
+
+
 
 
 
