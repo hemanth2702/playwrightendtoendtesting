@@ -16,7 +16,7 @@ let person={
     skill:"playwright"
 }
 
-console.log(person);
+console.log(person);//{ name: 'pooja', age: 26, address: 'pune', skill: 'playwright' }
 
 //keys(objectName)
 let allKeys= Object.keys(person);
@@ -30,6 +30,9 @@ console.log(allValues);
 
 //entries(objectName)
 let allEntries = Object.entries(person);
-console.log(allEntries);
+console.log(allEntries); /*[ 'name', 'pooja' ],
+  [ 'age', 26 ],
+  [ 'address', 'pune' ],
+  [ 'skill', 'playwright' ]*/
 
 

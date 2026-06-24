@@ -42,31 +42,32 @@ let id =[10, 20, 30, 40, 50]
 
 
 //slice of 1 to 3
-let slice1=id.slice(1,3);
-console.log(slice1);
+let slice1=id.slice(1,3); // startposition and endposition-1
+console.log(slice1); //[ 20, 30 ]
 
 let slice2=id.slice(0,4);
-console.log(slice2);
+console.log(slice2);// [ 10, 20, 30, 40 ]
 
 let slice3 = id.slice(3);
-console.log(slice3);
+console.log(slice3);// [ 40, 50 ]
 
 let slice4 = id.slice(0);
-console.log(slice4);
+console.log(slice4); //[ 10, 20, 30, 40, 50 ]
 
 let slice5 = id.slice(-2);
-console.log(slice5);
+console.log(slice5); //[ 40, 50 ]
 
 let slice6 = id.slice(-5);
-console.log(slice6);
+console.log(slice6); //[ 10, 20, 30, 40, 50 ]
 
 let slice7 = id.slice(1,6);
-console.log(slice7);
+console.log(slice7); //[ 20, 30, 40, 50 ]
 
 let slice8 = id.slice(1,8);
-console.log(slice8);
+console.log(slice8); //[ 20, 30, 40, 50 ]
 
-
+let slice9 = id.slice(8,15);
+console.log(slice9);//[]
 
 
 

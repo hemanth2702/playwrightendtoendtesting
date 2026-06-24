@@ -76,4 +76,5 @@ console.log(arr3); //[ 1, 2, 3, 4,  5, 6, 7, 8, 9, 10]
 //concate(): combines two or more array. This method gives new array without modifying the new existing array.
 
 let arr4=arr1.concat(arr2);
-console.log(arr4);
+console.log(arr4); //[ 1, 2, 3, 4,  5, 6, 7, 8, 9, 10]
+

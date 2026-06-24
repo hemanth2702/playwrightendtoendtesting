@@ -17,6 +17,6 @@ console.log(month.indexOf('Apr',indexnum1+1));//6
 //find the last  entry of Apr
 //lastIndexof(): will give the last entry of the value within the similar value
 
-console.log(month.lastIndexOf('Apr'));
+console.log(month.lastIndexOf('Apr'));//8
 
 

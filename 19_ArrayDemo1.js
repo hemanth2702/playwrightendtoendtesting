@@ -104,7 +104,7 @@ console.log("total number of row3: " + multiD[2].length);//3
 
 //single entry
 console.log(multiD[1][1]);//ruchi@123
-console.log(multiD.[2][2]);//test@gmail.com
+console.log(multiD[2][2]);//test@gmail.com
 //if we give wrong index undefined will display.
 //[2][1] 2 is row and 1 ic column
 

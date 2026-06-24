@@ -150,12 +150,12 @@ console.log(year);  //2026
 //reverse
 
 let info1="Hello All"
-console.log(info1);
-let rev=0;
+console.log(info1);  //Hello All
+let rev="";
 for(let i=info1.length-1;i>=0;i--){
   rev=rev+info1.charAt(i);
 }
-console.log(rev);
+console.log(rev); //llA olleH
 
 
 
