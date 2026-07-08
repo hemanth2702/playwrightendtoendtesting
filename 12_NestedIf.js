@@ -8,7 +8,7 @@ otherwise grade  B
 let score=94;
 if(score>=90){
         if(score>=95){
-            console.log("A");
+            console.log("A+");
         }else{
             console.log("A");   
         }

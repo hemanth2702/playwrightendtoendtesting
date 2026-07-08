@@ -51,3 +51,6 @@ calculation(10,20,sub);
 calculation(10,20,mod);
 calculation(10,20,mul);
 calculation(10,20,div);
+
+let response=fetch("https://restful-booker.herokuapp.com/booking");
+    console.log(response);

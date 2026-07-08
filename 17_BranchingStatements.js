@@ -8,7 +8,7 @@ continue:
 continue statement will skip certain part of the code and
  continue iteration till the end of that expression.
 
- reture
+ return
  --------
  during function
 
