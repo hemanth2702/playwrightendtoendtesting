@@ -7,6 +7,8 @@ console.log("subtraction is:" + (a-b));
 console.log("multiplication is:"+ (a*b));
 console.log("division is:" + (a/b));
 console.log("modulas is:" +(a%b));
+// (/) divide tells how many times one number is divided by other
+// (%) modulas gives the remainder after division.
 
 console.log(90/0); //infinity
 console.log(-180/0); //-infinity

@@ -53,3 +53,17 @@ for(;;;)--> true will run infinite
         fact=fact*i;
     }
     console.log(fact);
+
+    let sum =0;
+    for(let i=1; i<=10;i++){
+        sum=sum+i;
+    }
+    console.log(sum);
+
+  
+    let count=0;
+    for(let num=1020;i<num.length;i++){
+        count=count+i;
+    }
+    console.log(count);
+    

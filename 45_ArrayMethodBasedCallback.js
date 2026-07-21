@@ -15,7 +15,7 @@ for(let i of arr){
 ///forEach calls the callback function one time for each element in the array.
 console.log("--------------------------");
 
-
+let arr=[1,2,3,4,5];
 arr.forEach((num)=>{
     console.log(num*num*num);
 })
@@ -85,9 +85,15 @@ console.log(sum);
 
 console.log("---------------------------");
 
-
+let data=[10,20,30,40,50];
 let sumOfElements=data.reduce((sum,num)=>sum+num,0);
 console.log(sumOfElements);
+/*
+here sum = Accumulator-->stores the running total
+num = holds the current value from the array
+0 = Initial value of sum
+array.reduce((accumulator, currentValue) => {
+*/
 
 //string array- calculate the total length of characters of all the string
 

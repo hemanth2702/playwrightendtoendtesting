@@ -25,7 +25,7 @@ while(num>0){
     num=Math.floor(num/10);
     sum=sum+rem;
 }
-console.log("sum of digits are: " + sum);
+console.log("sum of digits are: " + sum);  //0+2+0+1=3
 
 //to reverse the number
 
@@ -35,7 +35,7 @@ while(num>0){
     num=Math.floor(num/10);
     rev=rev*10+rem;
 }
-console.log("After reversing the number:" +rev);
+console.log("After reversing the number:" +rev);  //54321
 
 
 //palindrome sequence
@@ -56,22 +56,10 @@ if(num1===rev){
     
 }
 
-let digit=153,rem,rev=0;
-let cube=0;
-while(digit>0){
-    rem=digit%10;
-    digit=Math.floor(digit/10);
-    rev=cube+rem;
-    cube=rem*rem*rem;
-    
-}
-console.log(rev);
-
-
-let digit=153,rem,rev=0;
-let cube=0;
-rem=digit%10;
-    digit=Math.floor(digit/10);
-    cube=rem*rem*rem;
-    console.log(rev);
+   
+    //cube of the number
+    let digit=5;
+    let cube=1;
+    cube=digit*digit*digit;
+    console.log(cube);
     

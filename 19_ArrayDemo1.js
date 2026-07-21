@@ -8,13 +8,13 @@ Array stores elements as per index and index starts from zero
 Types of array:
 ----------------
 1. Single diemensional array[1D]
-2. Multi diemensional array[2]
+2. Multi diemensional array[2D]
 
 ways to declare array:
 ----------------------
 1. Array using literal.
 2. Using Array constructor()
-3. usinf Array.of() added after ES6
+3. using Array.of() added after ES6
 
 syntax: 
 --------

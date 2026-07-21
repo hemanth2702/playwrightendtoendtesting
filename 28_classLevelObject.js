@@ -21,7 +21,7 @@ what is garbage collector:
 
 - It is automechanism, call by js engine internally for memory management.
 - GC always monitor js engine heap memory and heap memory where objects will create and stores.
-- If any of the object is noticed is null or no reference object then that is moved to GC
+- If any of the object is noticed as null or no reference object then that is moved to GC
 
 Which objects are eligible for GC:
 ------------------------------------

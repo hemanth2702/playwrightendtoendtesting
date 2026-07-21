@@ -13,7 +13,7 @@ payment gateway, ola, zomato
 
 Types:
 ------
-1. complete time polymorphism.
+1. compile  time polymorphism.
 2. run time polymorphism.
 
 what is complie time /method overloading

@@ -61,6 +61,23 @@ function add(){
 
 }
 
+function Employee(id, name, salary) {
+    this.id = id;
+    this.name = name;
+    this.salary = salary;
+
+    this.display = function () {
+        console.log("ID:", this.id);
+        console.log("Name:", this.name);
+        console.log("Salary:", this.salary);
+    }
+}
+
+let emp1 = new Employee(101, "Hemanth", 50000);
+
+emp1.display();
+
+
 function employeeData(empId, empName){
     this.empId=empId;
     this.empName=empName;
@@ -75,6 +92,8 @@ function employeeData(empId, empName){
 
 let e1= new employeeData(1010,"hemanth");
 e1.getDetails();
+
+
 
 
 console.log("---------object create--------------");
@@ -94,3 +113,4 @@ let p1 = Object.create(product);
 console.log(p1.pid);
 console.log(p1.pname);
 console.log(p1.price);
+

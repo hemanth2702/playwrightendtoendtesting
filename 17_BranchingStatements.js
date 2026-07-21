@@ -62,10 +62,10 @@ let i=1;
 do{
     let url= "www.google.com";
     if(!(url.includes("http") || url.includes("https"))){
-console.log("URL doesn't contain https or http");
+console.log("URL contain https or http");
         continue;
     }else{
-        console.log("URL contains https or http");
+        console.log("URL doesn't contains https or http");
         
     }
 }while(i==10);

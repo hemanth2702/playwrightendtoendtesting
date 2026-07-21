@@ -6,8 +6,9 @@ console.log(color);//[ 'red', 'blue', 'yellow' ]
 //insert element and delete element
 
 //push(): Appends new element at the end of the array and returns the new length of the array.
-color.push("Black","Orange");
+let addedcolor=color.push("Black","Orange");
 console.log(color);//[ 'red', 'blue', 'yellow', 'Black', 'Orange' ]
+console.log(addedcolor);
 
 
 //unshift(): Inserts new element at the begining of the array and give the new length of the array

@@ -46,10 +46,14 @@ console.log("total length of the string is: " + ss1.length); //9
 console.log(ss1.toLowerCase()); //hello all
 console.log(ss1.toUpperCase()); //HELLO ALL
 
-//trim(): ignore white space.
+//trim(): ignore white space. it will not remove the space inbetween.
 
 let ss2="Welcome All    "
 console.log(ss2.trim());
+
+let ss3="gsgsgsd";
+console.log(ss3.trim());
+
 
 //includes partial match
 let info="Playwright is webui and api testing framework"
@@ -76,8 +80,11 @@ console.log("string ends with: " + info.endsWith("frame"));     //false
 let ss3= "Hello All";
 //index   012345678
 console.log("get the character at the index: " + ss3.charAt(1)); //e
+console.log(ss3.charAt(9));  // if we give the character that doesn't exist it will return empty string.
+console.log(ss3.charAt());  //if we pass empty inside index it will consider as index zero
 
-//indexof('string/char'): returs index number of given character.
+
+//indexof('string/char'): returs index number of given character/string.
 //returs the position of the first occurance of the substring, if not present then it will return -1
 
 let ss4 = "selenium webdriver is webui automation tool";
@@ -85,8 +92,10 @@ console.log("Index number of character e: " + ss4.indexOf('e')); //1 1st e index
 console.log("Index number of character z:" + ss4.indexOf('z'));  // -1 because z is not present in the string
 
 let fo= ss4.indexOf('e');
+console.log(fo);  //1 index
 //second occurance of e
 let so=ss4.indexOf('e',fo+1);
+console.log(so);  //3 index
 //third occurance of e
 let to=ss4.indexOf('e',so+1);
 console.log("third occurance of index: " + to);//10
@@ -116,7 +125,7 @@ console.log("total count: "+ count);
 
 let sentence="Automation Testing is important and Automation Testing with modern tool is more important";
 
-console.log(sentence.replace('Testing','#####')); //here onl 1st matching value will be replaced and rest will be remain same.
+console.log(sentence.replace('Testing','#####')); //here only 1st matching value will be replaced and rest will be remain same.
 
 //concat(): strings to append to the end of the string.
 
@@ -157,8 +166,27 @@ for(let i=info1.length-1;i>=0;i--){
 }
 console.log(rev); //llA olleH
 
+let ss5 = "selenium webdriver is webui automation tool";
+console.log(ss5.length);
 
+let count=0;
+for(let i=0;i<ss5.length; i++){
+let ch=ss5.charAt(i);
+count++
+}
+console.log("total count: "+ count);
 
+//even index to uppercase and odd index to lower case 
+let name ='hemanth';
+let result=""
+for(let i=0;i<name.length;i++){
+  if(i%2===0){
+    result=result+name[i].toUpperCase();
+  }else{
+    result=result+name[i].toLowerCase();
+  }
+}
+console.log(result);
 
 
 

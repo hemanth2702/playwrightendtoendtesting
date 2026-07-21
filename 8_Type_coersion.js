@@ -119,7 +119,7 @@ let bill = "your total amount  is 5000";
 
 //extract the 5000 from the bill 
 let data = bill.split(" ")[5]; // it will saperate the string into array words
-//("") will saperate the leters and (" ") will saperate the words.
+//("") will saperate the letters and (" ") will saperate the words.
 console.log(data); //"5000"
 console.log(typeof data); // string
 
@@ -151,20 +151,3 @@ console.log(Boolean(0)); // false
 console.log(Boolean(null)); //false
 console.log(Boolean(undefined)); //false
 console.log(Boolean(NaN));  //flase
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

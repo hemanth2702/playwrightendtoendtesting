@@ -12,7 +12,7 @@ ways to declare an object
 1. object literal
 2. Using class (added after ES6)
 3. Constructor function  (added after ES6)
-4. Using prototype pased object (object interface)
+4. Using prototype based object (object interface)
 
 
 Class:
@@ -80,13 +80,24 @@ Iterates over keys and index
 
 */
 
+
+let person={
+
+    fname:"sarang",
+    age:25,
+    address:"pune",
+    isEmployee:true
+}
+
+//gives the key entries
 for(let i in person){
-    console.log(i);
+    console.log(i);   //fname age address isEmployee
     
 }
 
+//gives the value entries
 for(let key in person){
-    console.log(person[key]);
+    console.log(person[key]);  //sarang 25 pune true
     
 }
 
